@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45;net46;</TargetFrameworks>
+    <AssemblyName>Savage.Db</AssemblyName>
+    <RootNamespace>Savage.Db</RootNamespace>
+    <Title>Db</Title>
+    <Authors>Alan Savage</Authors>
+    <Description>Library for working with databases which helps with unit testing.</Description>
+    <Copyright>© 2018 Alan Savage</Copyright>
+    <PackageProjectUrl>https://github.com/alansav/db</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/alansav/db</RepositoryUrl>
+    <PackageTags>database;mysql;sql server;</PackageTags>
+    <PackageId>Db</PackageId>
+    <!-- Version elements are intentionally empty as they are provided by the build process-->
+    <Version></Version>
+    <PackageVersion></PackageVersion>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <InformationalVersion></InformationalVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OptimizedDataReader" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>
